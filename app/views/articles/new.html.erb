@@ -1,3 +1,11 @@
+<% if @article.errors.any? %>
+  <h2>The following errors prevented the article from getting created</h2>
+    <ul>
+      <% @article.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+<% end %>
 <div class="row">
   <div class="col-md-4 col-md-offset-4">
     <h1 class="text-center">Create an article</h1>

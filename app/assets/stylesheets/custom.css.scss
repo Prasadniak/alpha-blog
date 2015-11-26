@@ -5,6 +5,12 @@
 
 $navbar-default-bg: black;
 
+body{
+    background: #FFEEEE;
+    background: -webkit-linear-gradient(to left, #FFEEEE , #DDEFBB);
+    background: linear-gradient(to left, #FFEEEE , #DDEFBB);
+}
+
 #logo {
     float: left;
     font-size: 1.7em;

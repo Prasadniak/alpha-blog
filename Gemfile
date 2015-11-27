@@ -29,6 +29,9 @@ gem 'figaro', '~> 1.0.0'
 # Use Paperclip for picture upload
 gem 'paperclip', '~> 4.2.1'
 
+# Use bcrypt for password encryption
+gem 'bcrypt', '~> 3.1.7'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

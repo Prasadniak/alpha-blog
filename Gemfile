@@ -32,6 +32,10 @@ gem 'paperclip', '~> 4.2.1'
 # Use bcrypt for password encryption
 gem 'bcrypt', '~> 3.1.7'
 
+# Use paginate for pagination in view pages
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

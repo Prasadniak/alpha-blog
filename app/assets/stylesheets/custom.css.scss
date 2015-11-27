@@ -19,18 +19,22 @@ body{
     letter-spacing: -1px;
     font-weight: bold;
 }
+
 #logo:hover {
     color: #fff;
     text-decoration: none;
 }
+
 .center {
     text-align: center;
 }
+
 .jumbotron {
     background-image: asset-url('IMG_0863.PNG');
     background-size: cover;
     height: 550px;
 }
+
 .jumbotron h1 {
     margin-top: 120px;
     margin-bottom: 30px;
@@ -63,22 +67,27 @@ body{
     font-size: 1.7em;
     background-color: black;
 }
+
 footer {
     margin-top: 45px;
     padding-top: 5px;
     border-top: 1px solid #eaeaea;
     color: #777;
 }
+
 footer a:hover {
     color: #222;
 }
+
 footer small {
     float: left;
 }
+
 footer ul {
     float: right;
     list-style: none;
 }
+
 footer ul li {
     float: left;
     margin-left: 15px;
@@ -88,6 +97,7 @@ footer ul li {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
 }
+
 .description {
     margin-top: 0;
 }
@@ -96,8 +106,14 @@ footer ul li {
     font-weight: bold;
     font-size: 1.5em;
 }
+
 .article-body {
     border-top: 1px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.article-meta-details {
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
 }

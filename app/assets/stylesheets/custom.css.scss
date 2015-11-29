@@ -3,12 +3,17 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-$navbar-default-bg: black;
 
 body{
     background: #FFEEEE;
     background: -webkit-linear-gradient(to left, #FFEEEE , #DDEFBB);
     background: linear-gradient(to left, #FFEEEE , #DDEFBB);
+    
+}
+
+.row {
+   /* margin-left: -15px; */
+    margin-right: 0px; 
 }
 
 #logo {

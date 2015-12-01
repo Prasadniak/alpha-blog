@@ -134,3 +134,26 @@ footer ul li {
     list-style: none;
     padding-left: 0;
 }
+
+.badge {
+    background-color: #CEF6F5;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.input_checkbox input {
+    width: auto !important;
+}
+
+
+
+.message-based-on-text{
+         white-space: -moz-pre-wrap !important;
+         white-space: -pre-wrap;
+         white-space: -o-pre-wrap;
+         white-space: pre-wrap;
+         word-wrap: break-word;
+         word-break: break-all;
+         white-space: normal;
+    }
